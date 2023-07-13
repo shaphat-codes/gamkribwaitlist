@@ -16,4 +16,11 @@ def Waitlist(request):
                 
             serializer.save()
 
-        return Response(serializer.data)
+            return Response({
+                "status": "200"
+                
+            })
+        else:
+             return Response({
+                  "status": "500"
+             })
