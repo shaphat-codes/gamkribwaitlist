@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'waitlist_form',
     'rest_framework',
     'corsheaders',
+    'import_export',
 
 ]
 
